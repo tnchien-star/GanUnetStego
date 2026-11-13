@@ -1,4 +1,4 @@
-# GAN-Stego: Robust GAN-U-Net Image Steganography with Depthwise Separable Convolutions
+# GAN-Stego: Robust GAN and U-Net Image Steganography with Depthwise Separable Convolutions
 
 ## 1. Hide a message in one image and read it back
 
