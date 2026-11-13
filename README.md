@@ -44,7 +44,3 @@ python train.py --data data/coco/train2017 --image-size 256 \n                --
 ```
 
 or `scripts/train_256.sh` / `scripts/train_256.ps1`.
-
-A model trained at 256x256 must also be EVALUATED at 256x256, and its numbers
-are not comparable with Tables I-IV. [docs/REPRODUCE.md](docs/REPRODUCE.md)
-explains why in one short section, with measurements.
