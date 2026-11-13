@@ -43,4 +43,3 @@ To train at 256x256 instead - one single configuration, 2.4x cheaper per epoch:
 python train.py --data data/coco/train2017 --image-size 256 \n                --decoder-warmup-epochs 0 --epochs 110 --seed 42
 ```
 
-or `scripts/train_256.sh` / `scripts/train_256.ps1`.
