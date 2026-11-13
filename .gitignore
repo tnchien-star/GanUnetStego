@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Training and demo artefacts
+steganography_model/
+demo_output/
+runs/
+wandb/
+
+# Local datasets (never commit image corpora)
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Checkpoints produced locally; the released ones are tracked explicitly
+*.pth
+!checkpoints/ganstego_epoch96.pth
+!checkpoints/ganstego_epoch96_training.pth
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
